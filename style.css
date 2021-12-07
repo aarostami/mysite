@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+.btn1 {
+	padding: 15px 25px;
+	background-color: rgb(73, 202, 84);
+	border: none;
+	margin-left: 50%;
+	margin-top: 10%;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	border-bottom: 10px solid rgb(61, 61, 61);
+	border-radius: 7px 7px 0 0;
+	box-shadow: 0 0 40px rgb(151, 150, 150);
+}
+
+.btn1:hover {
+	border-width: 3px;
+	transform: translateY(7px);		/*10px - 3px = 7px*/
+	
+}
+
+.btn2 {
+	padding: 15px 25px;
+	background-color: rgb(73, 202, 84);
+	border: none;
+	margin-left: 50%;
+	margin-top: 10%;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0 0 40px rgb(151, 150, 150);
+}
+
+/*in karo ba animation dorost nemikonan maamoolan*/
+.btn2_border {
+	width: 0px;	/*ba animation width: 102px; agar ino nazarim ta tahe safhe mire*/
+	height: 5px;
+	background-color: rgb(44, 44, 44);
+	margin-left: 50%;
+	direction: rtl;	  /*kar nemikone va az right to left nemishe!*/
+	transition: width 0.7s;
+}
+
+

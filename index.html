@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<title>Document</title>
+</head>
+<body>
+<button class="btn1">کلیک کنید</button>
+<button class="btn2">کلیک کنید</button>
+<div class="btn2_border"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+	$(".btn2").mouseover(function() {
+		$(".btn2_border").css("width", "102px");
+	});
+	$(".btn2").mouseleave(function() {
+		$(".btn2_border").css("width", "0px");
+	});
+	//ba hover() nemishe. faghat 102px mishe vali barnemigarde
+});
+</script>
+</body>
+</html>
